@@ -4,7 +4,6 @@
 
 ## Table of Contents
 - [Description](#description)
-- [Mock Up](#mock-up)
 - [Deployed App](#deployed-app)
 - [Usage](#usage)
 - [License](#license)
@@ -15,11 +14,11 @@
 ## Description
 My coding portfolio page
 It is currently deployed on heroku
-Check out the link below to see the deployed app
+Check out the link below to see the deployed website
 
-## Deployed App
+## Deployed Website
 Link to website:
-[Web App Link]()
+[Web App Link](https://mikesasiela-portfolio.herokuapp.com/)
 
 ## Usage 
 
