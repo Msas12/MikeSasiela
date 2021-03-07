@@ -1,0 +1,72 @@
+/* Button Fix for Safari */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+html, body { 
+    background: url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Initializes when darkTheme() is called, gets removed when lightTheme() is called */
+.darkTheme {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-check-input {
+    color: #48b6cd;
+}
+
+/* to match color of other grey items after opacity is applied to them without making this opaque */
+.navbar, .navbar-expand {
+    background-color: #5e6c73;
+}
+
+.navbar-toggler-icon {
+    color: #ece3d4 !important;
+}
+
+.fab {
+    color: #454951;
+}
+
+.fab-dark {
+    color: #48b6cd;
+}
+
+.fas {
+    color: #48b6cd;
+}
+
+.nav-link, .navbar-brand {
+    color: #ece3d4 !important;
+}
+
+.navbar-brand {
+    font-size: xx-large !important;
+    font-weight: bold !important;
+}
+
+.active {
+    color: #48b6cd !important;
+}
+
+.card {
+    background-color: #454951;
+    color: #ece3d4;
+    opacity: .8;
+}
+
+.card-footer {
+    background-color: #48b6cd; 
+}

@@ -1,0 +1,61 @@
+/* Button Fix for Safari */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+html, body { 
+    background: url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.darkTheme {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* to match color of other grey items after opacity is applied to them without making this opaque */
+.navbar, .navbar-expand {
+    background-color: #5e6c73;
+}
+
+.card {
+    opacity: 80%;
+}
+
+.fab {
+    color: #454951;
+}
+.fas {
+    color: #48b6cd;
+}
+
+.card {
+    background-color: #454951;
+    color: #ece3d4;
+}
+
+.nav-link, .navbar-brand {
+    color: #ece3d4 !important;
+}
+
+.nav-link:active {
+    color: #48b6cd !important;
+}
+
+.active {
+    color: #48b6cd !important;
+}
+
+.navbar-brand {
+    font-size: xx-large !important;
+    font-weight: bold !important;
+}
