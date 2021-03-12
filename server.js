@@ -1,6 +1,5 @@
 const express = require('express')
-const ffmpeg = require('ffmpeg')
-var compression = require('compression')
+const compression = require('compression')
 
 const htmlRouter = require('./routes/html-routes.js')
 
